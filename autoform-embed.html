@@ -1,0 +1,10 @@
+<template name="afEmbedCode">
+	<pre id="afEmbedCode-valueinput" contenteditable="true">{{initialValue}}</pre>
+	{{#if value}}
+		<hr>
+		{{{value}}}
+	{{/if}}
+
+	<!-- autoform related -->
+	<input type="hidden" id="afEmbedCodeHiddenInput" data-schema-key="{{dataSchemaKey}}" />
+</template>
