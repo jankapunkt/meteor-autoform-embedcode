@@ -34,7 +34,6 @@ Template.afEmbedCode.onCreated(function () {
 
     instance.state.set('dataSchemaKey', atts['data-schema-key']);
     if (value) {
-      console.log(value);
       $('#afEmbedCodeHiddenInput').val(value);
       instance.state.set('initialValue', value);
       instance.state.set('value', value);
