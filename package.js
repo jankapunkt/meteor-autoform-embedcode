@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.6');
   api.use('ecmascript');
-  api.use('templatin@1.3.2');
+  api.use('templating@1.3.2');
   api.use('reactive-dict');
   api.use('aldeed:autoform@6.3.0');
   api.addFiles([
